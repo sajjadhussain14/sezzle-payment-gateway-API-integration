@@ -13,7 +13,7 @@
     <cffunction name="OnApplicationStart" access="public"  output="false" hint="Fires when the application is first created.">
        
         <cfscript>
-            direcotyName=direcotyName
+            direcotyName="/sezzle/"
             host = structKeyExists(cgi,'http_host') ? cgi.http_host  : '';
             req_url = 'http://' & host;
 
